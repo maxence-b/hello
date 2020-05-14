@@ -22,4 +22,4 @@ if statement:       if x < y:
 # This is the testing function
 if __name__ == '__main__':
     list = [1, 4, 8, 2, 9, 3, 5, 1]
-    print(sorting(list))
+    print(sorting(list) )
