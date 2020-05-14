@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/NLP-Stanford/XCS224N/char-mnt/.idea/char-mnt.iml" filepath="$USER_HOME$/NLP-Stanford/XCS224N/char-mnt/.idea/char-mnt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hello.iml" filepath="$PROJECT_DIR$/.idea/hello.iml" />
+    </modules>
+  </component>
+</project>

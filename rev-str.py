@@ -1,22 +1,25 @@
-def reverseSting(text): 
-    index = -1
-  
-    # Loop from last index untill half of the index      
-    for i in range(len(text)-1, int(len(text)/2), -1): 
-  
-        # match character is alphabet or not          
-        if text[i].isalpha(): 
-            temp = text[i] 
-            while True: 
-                index += 1
-                if text[index].isalpha(): 
-                    text[i] = text[index] 
-                    text[index] = temp 
-                    break
-    return text 
-      
-# Driver code 
-string = "a!!!b.c.d,e'f,ghi"
-print ("Input string: ", string) 
-string = reverseSting(list(string)) 
-print ("Output string: ", "".join(string)) 
+def sorting(list):
+    # YOUR CODE HERE
+
+    # END OF YOUR CODE
+
+    return list
+'''
+PYTHON CHEAT SHEET
+--------------------------------
+declare a list:     mylist = []
+element of a list   mylist[i]
+declare a var       myvar = 4
+for loop:           for x in y:
+                        do stuff
+Range usable 
+in a for:           range(min,max)  
+                        
+if statement:       if x < y:
+                       do stuff
+'''
+
+# This is the testing function
+if __name__ == '__main__':
+    list = [1, 4, 8, 2, 9, 3, 5, 1]
+    print(sorting(list))
