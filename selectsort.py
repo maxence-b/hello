@@ -1,6 +1,7 @@
-def sorting(list):
+# Your code here
 
-    return list
+# end your code
+
 '''
 PYTHON CHEAT SHEET
 --------------------------------
@@ -12,7 +13,7 @@ for loop:           for x in y:
                         do stuff
 Range usable 
 in a for:           range(min,max)  
-                        
+
 if statement:       if x < y:
                        do stuff
 '''
