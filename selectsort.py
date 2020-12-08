@@ -12,7 +12,7 @@ declare a var       myvar = 4  (python isn't typed)
 for loop:           for x in y:
                         do stuff
 Range usable 
-in a for:           range(min,max)  
+in a for:           for i in range(min,max):  
 
 if statement:       if x < y:
                        do stuff
@@ -20,5 +20,5 @@ if statement:       if x < y:
 
 # This is the testing function
 if __name__ == '__main__':
-    list = [1, 4, 8, 2, 9, 3, 5, 1]
-    print(sorting(list))
+    l = [1, 4, 8, 2, 9, 3, 5, 1]
+    print(sorting(l))
